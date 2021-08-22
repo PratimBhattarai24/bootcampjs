@@ -1,0 +1,23 @@
+.body {
+  background-color: #0e182a;
+
+  .hero {
+    background: url("./assets/background.jpg");
+    height: 860px;
+    background-position: 50% top;
+  }
+  .earthTop {
+    position: absolute;
+    top: 560px;
+  }
+  .rocketBox {
+    position: relative;
+    height: 800px;
+    background-color: #0e182a;
+  }
+  .rocket {
+    position: absolute;
+    left: 825px;
+    top: 200px;
+  }
+}

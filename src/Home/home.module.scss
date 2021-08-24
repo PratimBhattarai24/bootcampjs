@@ -8,16 +8,23 @@
   }
   .earthTop {
     position: absolute;
-    top: 560px;
+    top: 645px;
+  }
+  .earthBackground{
+    background-color: #0e182a;
   }
   .rocketBox {
     position: relative;
     height: 800px;
     background-color: #0e182a;
+    color: white;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
   }
   .rocket {
     position: absolute;
-    left: 825px;
+    left: 595px;
     top: 200px;
   }
 }

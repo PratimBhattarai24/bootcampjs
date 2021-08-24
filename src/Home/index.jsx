@@ -54,7 +54,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-end justify-center w-full h-full">
+          <div className={`flex items-end justify-center w-full h-full ${style.earthBackground}`}>
             <img
               src="./earthtop.png"
               alt="earth"
@@ -68,7 +68,36 @@ const Home = () => {
               className={style.rocket}
             ></img>
           </div>
-          <div className={style.rocketBox}></div>
+          <div className={` ${style.rocketBox}`}>
+            <div className="flex justify-center text-center w-5/12 h-2/5" >
+
+            <h1>Rocket your enthusisam to learn Coding.
+            Start Today... Be a good frontent developer in 3-months.
+            Yes you can do it</h1>
+            </div>
+          </div>
+
+          <div>
+            <div>
+            <a href="#">
+              Html
+            </a>
+            </div>
+            <div>
+            <a href="#">
+              CSS            </a>
+            </div>
+            <div>
+            <a href="#">
+              Javascript
+            </a>
+            </div>
+            <div>
+            <a href="#">
+              Git
+            </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

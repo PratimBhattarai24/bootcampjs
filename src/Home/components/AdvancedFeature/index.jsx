@@ -3,7 +3,7 @@ import React from "react";
 const AdvancedFeature = () => {
   return (
     <div className="bg-lightblue">
-      <div className="container">
+      <div className="container py-11">
         {/* advanced section */}
         <div className="text-center text-white mt-12 ">
           <h3 className="text-4xl">Advanced Workshop</h3>

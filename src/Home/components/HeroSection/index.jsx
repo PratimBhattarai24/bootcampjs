@@ -17,7 +17,6 @@ const HeroSection = () => {
                 </h1>
               </div>
             </div>
-
             <div>
               <img
                 src="./heroimage.svg"

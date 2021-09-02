@@ -6,17 +6,19 @@ import AdvancedFeature from "./components/AdvancedFeature";
 import Opportunity from "./components/Oppurtunity";
 import Partnership from "./components/Partnership";
 import style from "./home.module.scss";
+import TeamsCard from "./components/Teams";
 
 const Home = () => {
   return (
     <div>
-      <div>
+       <div>
         <Navbar />
         <HeroSection />
         <FeatureSection />
         <AdvancedFeature />
         <Opportunity />
         <Partnership />
+        <TeamsCard/>
       </div>
     </div>
   );

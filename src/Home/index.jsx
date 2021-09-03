@@ -5,8 +5,11 @@ import FeatureSection from "./components/FeatureSection";
 import AdvancedFeature from "./components/AdvancedFeature";
 import Opportunity from "./components/Oppurtunity";
 import Partnership from "./components/Partnership";
-import style from "./home.module.scss";
+import Works from "./components/Works"
 import TeamsCard from "./components/Teams";
+import StudentTestimonial from "./components/StudentTestimonial";
+import Footer from "./components/Footer";
+import style from "./home.module.scss";
 
 const Home = () => {
   return (
@@ -18,7 +21,10 @@ const Home = () => {
         <AdvancedFeature />
         <Opportunity />
         <Partnership />
+        <Works/>
         <TeamsCard/>
+        <StudentTestimonial/>\
+        <Footer/>
       </div>
     </div>
   );

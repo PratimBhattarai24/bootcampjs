@@ -3,8 +3,8 @@ import React from "react";
 const FeatureSection = () => {
   return (
     <div className="">
-      <div className="container">
-        <div className="text-black text-center py-8">
+      <div className="container py-24">
+        <div className="text-black text-center pt-6 pb-14">
           <h1 className="text-4xl">All Time Workshop</h1>
           <p className="text-2xl mt-6">What we teach new enrollments</p>
         </div>

@@ -12,7 +12,7 @@ const Partnership = () => {
         {/* <!-- Create By Joker Banny --> */}
         <div className="flex justify-around ">
           <div class=" flex items-center justify-center ">
-            <div class="max-w-md bg-white rounded-xl px-20 pt-10 overflow-hidden cursor-pointer shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
+            <div class="max-w-md bg-white rounded-xl px-20  py-14 overflow-hidden cursor-pointer shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
               <div class="p-4 mt-3 flex justify-center">
                 <img class="rounded-xl" src="./codavatar.png" alt="Dog" />
               </div>
@@ -27,7 +27,7 @@ const Partnership = () => {
             </div>
           </div>
           <div class=" flex items-center justify-center ">
-            <div class="max-w-md  px-20 pt-10 bg-white rounded-xl overflow-hidden cursor-pointer shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
+            <div class="max-w-md  px-20 py-14 bg-white rounded-xl overflow-hidden cursor-pointer shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
               <div class="p-4 mt-3 flex justify-center">
                 <img class="rounded-xl" src="./codavatar.png" alt="Dog" />
               </div>

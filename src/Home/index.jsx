@@ -8,6 +8,7 @@ import Partnership from "./components/Partnership";
 import Works from "./components/Works"
 import TeamsCard from "./components/Teams";
 import StudentTestimonial from "./components/StudentTestimonial";
+import FooterCom from "./components/FooterCom";
 import Footer from "./components/Footer";
 import style from "./home.module.scss";
 
@@ -22,9 +23,10 @@ const Home = () => {
         <Opportunity />
         <Partnership />
         <Works/>
+        {/* <Footer/> */}
         <TeamsCard/>
-        <StudentTestimonial/>\
-        <Footer/>
+        <StudentTestimonial/>
+        <FooterCom/>
       </div>
     </div>
   );

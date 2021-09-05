@@ -8,7 +8,7 @@ const FeatureSection = () => {
           <h1 className="text-4xl">All Time Workshop</h1>
           <p className="text-2xl mt-6">What we teach new enrollments</p>
         </div>
-        <div class="container mx-auto text-black text-xl grid grid-cols-4 gap-4 justify-center p-3 ">
+        <div class="container mx-auto text-black text-xl grid grid-cols-4 gap-20 justify-center p-3 ">
           <div>
             <div className="flex justify-center">
               <a href="#">

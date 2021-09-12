@@ -5,8 +5,8 @@ const FeatureSection = () => {
     <div className="">
       <div className="container py-24">
         <div className="text-black text-center pt-6 pb-14">
-          <h1 className="text-4xl">All Time Workshop</h1>
-          <p className="text-2xl mt-6">What we teach new enrollments</p>
+          <h1 className="text-5xl font-bold">All Time Workshop</h1>
+          <p className="text-2xl mt-3">What we teach to new enrollments</p>
         </div>
         <div class="container mx-auto text-black text-xl grid grid-cols-4 gap-20 justify-center p-3 ">
           <div>

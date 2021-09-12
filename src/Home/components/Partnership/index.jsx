@@ -5,7 +5,7 @@ const Partnership = () => {
     <div>
       <div className="container ">
         <div>
-          <h1 className="text-center text-black text-4xl my-20">
+          <h1 className="text-center text-black text-5xl font-bold my-20">
             Patnership Program
           </h1>
         </div>

@@ -34,12 +34,12 @@ const Works = () => {
               Brand new
             </p>
           </div>
-          <h2 className="max-w-lg mb-6 font-sans text-3xl font-medium leading-none tracking-tight text-gray sm:text-4xl md:mx-auto">
+          <h2 className="max-w-lg mb-6 font-sans text-3xl font-medium leading-none tracking-tight text-white sm:text-4xl md:mx-auto">
             <span className="relative inline-block">
               <svg
                 viewBox="0 0 52 24"
                 fill="currentColor"
-                className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+                className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-white lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
               >
                 <defs>
                   <pattern
@@ -62,7 +62,7 @@ const Works = () => {
             </span>{" "}
             our Company Works
           </h2>
-          <p className="text-base text-gray md:text-lg">
+          <p className="text-base text-white md:text-lg">
             We are their for you to provide best resource with proper mentorship
             to develop your prografmming skills
           </p>
@@ -73,7 +73,7 @@ const Works = () => {
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full  sm:mx-auto sm:w-24 sm:h-24">
                 <img src={`${logo}`} width={96} height={96}></img>
               </div>
-              <h6 className="mb-3 leading-normal text-2xl font-semibold leading-5">
+              <h6 className="mb-3 leading-normal text-2xl font-semibold text-white">
                 {Description}
               </h6>
               {/* <p className="mb-3 text-sm text-gray-900">

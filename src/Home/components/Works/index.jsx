@@ -4,23 +4,23 @@ import React from "react";
 const data = [
   {
     logo: "./discord.svg",
-    Description: "Sign up in our community. We are on discord",
+    Description: "Sign up in our community. We are on discord.",
   },
   {
     logo: "./clock.svg",
     Description:
-      "Attend our primary workshops on every sunday and saturday at 5:00pm to 7:00pm",
+      "Attend our primary workshops on every sunday and saturday at 5:00pm to 7:00pm.",
   },
   {
     logo: "./student.png",
     Description:
-      "Dont worry if you miss one class you'll be faciliated with revision classesour students",
+      "Dont worry if you miss class you'll be facilitate with revision classes.",
   },
   ,
   {
     logo: "./score.svg",
     Description:
-      "We recommend our top ranked students to better companies with proper accomodation ",
+      "We recommend our top ranked students to better companies with proper accommodation.",
   },
 ];
 
@@ -29,11 +29,6 @@ const Works = () => {
     <div className="bg-blue">
       <div className="container mt-32 px-4 py-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="   max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-          <div>
-            <p className="inline-block px-3 py-px mb-4 text-xs font-medium tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-              Brand new
-            </p>
-          </div>
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-medium leading-none tracking-tight text-white sm:text-4xl md:mx-auto">
             <span className="relative inline-block">
               <svg
@@ -73,19 +68,9 @@ const Works = () => {
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full  sm:mx-auto sm:w-24 sm:h-24">
                 <img src={`${logo}`} width={96} height={96}></img>
               </div>
-              <h6 className="mb-3 leading-normal text-2xl font-semibold text-white">
+              <h6 className="mb-3 leading-normal text-xl  text-white">
                 {Description}
               </h6>
-              {/* <p className="mb-3 text-sm text-gray-900">
-           {Description}
-          </p> */}
-              <a
-                href="/"
-                aria-label=""
-                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                Learn more
-              </a>
             </div>
           ))}
         </div>

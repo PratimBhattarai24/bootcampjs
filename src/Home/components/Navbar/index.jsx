@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="container text-black  ">
         <nav className="navigation w-full flex justify-between items-center px-2 py-2 ">
           <div className="flex flex-grow items-center font-medium text-2xl">
-            Logo
+            <img src="./FinalLogo.svg" alt="logo" width={200} height={60}></img>
           </div>
           <div className="grid grid-flow-col gap-2 items-center sm:text-sm text-xs">
             <a
@@ -35,9 +35,12 @@ const Navbar = () => {
             </a>
             <a
               class="px-3 py-2 text-lg   lg:text-black text-text lg:bg-blue-500 lg:hover:bg-blue-600 rounded-lg transition-all ease-in-out duration-150"
-              href="/login"
+              href="https://discord.com/channels/740562406123634728/740567547086110774"
+              target="_blank"
             >
-              Join
+              <button className="bg-blue hover:bg-purple text-white font-bold py-1 px-4 rounded">
+                Join
+              </button>
             </a>
           </div>
         </nav>

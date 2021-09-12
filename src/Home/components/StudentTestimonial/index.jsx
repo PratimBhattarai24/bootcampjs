@@ -35,9 +35,9 @@ const StudentTestimonial = () => {
                 looking to make a transition and have heard some people who had
                 an amazing experience here. I signed up for the free course and
                 found it incredibly fun! I enrolled shortly thereafter. The next
-                12 weeks was the best - and most grueling - time of my life.
+                10 weeks was the best - and most grueling - time of my life.
                 Since completing the course, I’ve successfully switched career,
-                working as a Software developer at a VR startup. ”
+                working as a developer at a startup. ”
               </p>
             </div>
           </div>
@@ -65,8 +65,8 @@ const StudentTestimonial = () => {
               <br />
               <p className="text-black text-opacity-50 font-medium md:text-sm 2xl:text-xl pl-6 lg:pl-5 pr-4 -mt-1 lg:mt-6 2xl:mt-2 2xl:px-8">
                 “ I started as a total newbie with virtually no coding skills. I
-                now work as a mobile engineer for a big company. This was one of
-                the best investments I’ve made in myself. ”
+                now got internship in a company. This was one of the best
+                investments I’ve made in myself. ”
               </p>
             </div>
           </div>
@@ -118,7 +118,7 @@ const StudentTestimonial = () => {
             </div>
             <div className="px-3 -mt-3 mb-5 lg:mb-0">
               <p className="text-white text-lg 2xl:text-xl font-semibold px-4 -mt-3 lg:-mt-6 2xl:mt-8">
-                Awesome teaching support from TAs who did the bootcamp
+                Awesome teaching support from teams who did the bootcamp
                 themselves. Getting guidance from them and learning from their
                 experiences was easy.
               </p>
@@ -129,14 +129,14 @@ const StudentTestimonial = () => {
                 necessary to be able to go out in the world and present myself
                 as a capable junior developer. The standard is above the rest.
                 You will get the personal attention you need from an incredible
-                community of lgart and amazing people. ”
+                community of amazing people. ”
               </p>
             </div>
           </div>
           {/* <!-- Ending of the component about Patrick Abrams --> */}
 
           {/* <!-- Beginning of the component about Kira Whittle --> */}
-          <div className="bg-darkyellow lg:order-2 lg:row-span-4 lg:col-span-1 rounded-lg shadow-xl  lg:pb-4">
+          <div className="bg-darkyellow lg:order-2 lg:row-span-4 lg:col-span-1 rounded-lg shadow-xl  ">
             <div className="mx-8 my-8 lg:pl-1">
               <img
                 className="w-8 md:w-9 lg:w-12 2xl:w-10 h-8 md:h-9 lg:h-12 2xl:h-10 rounded-full border-2 lg:-mt-4 -ml-1 lg:-ml-4"
@@ -165,9 +165,8 @@ const StudentTestimonial = () => {
                 assistance. The agile team project, in particular, was
                 outstanding. It took my learning to the next level in a way that
                 no tutorial could ever have. In fact, I’ve often referred to it
-                during interviews as an example of my developent experience. It
-                certainly helped me land a job as a full-stack developer after
-                receiving multiple offers. 100% recommend! ”
+                during interviews as an example of my developent experience.
+                100% recommend! ”
               </p>
             </div>
           </div>
